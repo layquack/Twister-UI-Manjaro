@@ -12,7 +12,7 @@ read -p "Building some needed apps from AUR, press [Enter] to continue..."
 sudo pamac build ttf-ms-fonts 
 
 sudo pamac build scrcpy
-sudo pamac build webcord
+
 
 #read -p "Installing Google Chrome, press [Enter] to continue..."
 
