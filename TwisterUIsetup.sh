@@ -14,10 +14,6 @@ sudo pamac build ttf-ms-fonts
 sudo pamac build scrcpy
 
 
-#read -p "Installing Google Chrome, press [Enter] to continue..."
-
-#yay -S google-chrome
-
 sudo usermod -a -G "audio,video,input,dialout,plugdev,tty" $USER
 sudo groupadd --system input
 
