@@ -3,4 +3,4 @@ Twister UI for aarch64 Manjaro
 
 run the setup script without sudo
 
-credits to Grassmunk,b00merang and the Twister Community
+credits to Grassmunk,b00merang,natsurii for the neofetch theme, and the Twister Community
