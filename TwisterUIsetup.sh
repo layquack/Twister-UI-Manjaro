@@ -5,13 +5,13 @@ read -p "Please ensure that you are connected to the internet before proceeding.
 sudo pacman -Sy --noconfirm
 
 read -p "Installing needed dependencies, press [Enter] to continue..."
-sudo pacman -S git libreoffice-fresh mousepad android-tools file-roller gimp plank mpg123 tk python-pillow python-pip mpv neofetch audacious meson gtk3 cairo vala meson gnome-menus libgee libblockdev gnome-calendar gnome-contacts gparted gnome-maps parole ristretto samba vlc xterm python-setuptools python-wheel flameshot noto-fonts yay yad appmenu-gtk-module 
+yes | sudo pacman -S git libreoffice-fresh mousepad android-tools file-roller gimp plank mpg123 tk python-pillow python-pip mpv neofetch audacious meson gtk3 cairo vala meson gnome-menus libgee libblockdev gnome-calendar gnome-contacts gparted gnome-maps parole ristretto samba vlc xterm python-setuptools python-wheel flameshot noto-fonts yay yad appmenu-gtk-module 
 
 read -p "Building some needed apps from AUR, press [Enter] to continue..."
 
-sudo pamac build ttf-ms-fonts 
+yes | sudo pamac build ttf-ms-fonts 
 
-sudo pamac build scrcpy
+yes | sudo pamac build scrcpy
 
 
 sudo usermod -a -G "audio,video,input,dialout,plugdev,tty" $USER
